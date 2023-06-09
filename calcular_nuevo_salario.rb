@@ -8,7 +8,7 @@ end
 puts "ingrese el salario actual del trabajador"
 salario_actual= gets.chomp.to_f
 
-puts "ingrese el incremento de sueldo"
+puts "Ingrese el incremento en porcentaje (por ejemplo, 25 para 2.5%):"
 incremento= gets.chomp.to_f
 
 nuevo_salario= calcular_nuevo_salario(salario_actual,incremento)
