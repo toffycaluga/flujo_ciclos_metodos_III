@@ -1,3 +1,5 @@
+# Requerimiento 2: Simular el juego de "Adivina el número".
+
 def adivina_el_numero(rango)
     numero_secreto = rand(1..rango)
     adivinado = false
