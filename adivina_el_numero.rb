@@ -1,6 +1,6 @@
 # Requerimiento 2: Simular el juego de "Adivina el número".
 
-def adivina_el_numero(rango)
+def juego_adivina_el_numero(rango)
     numero_secreto = rand(1..rango)
     adivinado = false
   
@@ -17,9 +17,11 @@ def adivina_el_numero(rango)
     end
   end
   
-  # Solicitar datos al usuario
-  puts "Ingrese el rango máximo para el juego:"
-  rango = gets.chomp.to_i
-  
-  adivina_el_numero(rango)
-  
+  def adivina_el_numero
+    # Solicitar datos al usuario
+    
+    puts "Ingrese el rango máximo para el juego:"
+    rango = gets.chomp.to_i
+    
+    juego_adivina_el_numero(rango)
+  end

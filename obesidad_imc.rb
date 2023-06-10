@@ -10,8 +10,8 @@ def calcular_nivel_obesidad(imc)
     else
       "Obesidad grado III - Muy severo"
     end
-  end
-  
+end
+def obesidad_imc  
   # Solicitar datos al usuario
   puts "Ingrese el peso en kg:"
   peso = gets.chomp.to_f
@@ -23,4 +23,4 @@ def calcular_nivel_obesidad(imc)
   nivel_obesidad = calcular_nivel_obesidad(imc)
   puts "Tu IMC es: #{imc}"
   puts "Tu nivel de obesidad es: #{nivel_obesidad}"
-  
+end
